@@ -7,3 +7,17 @@ h1 {
 	text-align:center;
 }
 
+#header {
+	margin-left:30%; 
+	margin-right:30%;
+}
+
+#sidebar {
+	border:black solid; 
+	width:25%;
+}
+
+#mainbody {
+	float: left; 
+	margin-left:25%;   
+}
