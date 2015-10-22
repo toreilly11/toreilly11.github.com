@@ -1,10 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	background-color: #E4EDEA;
+}
+
 h1 {
-	font-family:Tahoma, Geneva, sans-serif;
-	border-style:solid;
+	font-family: 'Brush Script MT', cursive;
 	text-align:center;
+	color: #B2BDBA;
+	font-size:50px
+}
+
+h3 {
+	font-family: 'Brush Script MT', cursive;
+	color: #B2BDBA;
 }
 
 #header {
@@ -13,11 +23,35 @@ h1 {
 }
 
 #sidebar {
-	border:black solid; 
+	border: solid white;
 	width:25%;
+	display:inline-block;
 }
 
 #mainbody {
-	float: left; 
-	margin-left:25%;   
+
+	width: 70%;
+	background:green;
+	display:inline-block;
+}
+
+table {
+	hei
+}
+
+thead {
+		
+}
+
+tbody {
+	
+}
+
+tr {
+	
+}
+
+td {
+	border: solid white;
+	vertical-align:top;
 }
