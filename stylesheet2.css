@@ -13,8 +13,9 @@ h1 {
 }
 
 h3 {
-	font-family: 'Brush Script MT', cursive;
+	font-family: "Courier New", Courier, monospace;
 	color: #B2BDBA;
+	text-align:center;
 }
 
 #header {
@@ -36,7 +37,7 @@ h3 {
 }
 
 table {
-	hei
+	
 }
 
 thead {
@@ -54,4 +55,5 @@ tr {
 td {
 	border: solid white;
 	vertical-align:top;
+	background-color: white;
 }
