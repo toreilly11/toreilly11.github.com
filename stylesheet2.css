@@ -12,10 +12,25 @@ h1 {
 	font-size:50px
 }
 
+h2 {
+	font-family: "Courier New", Courier, monospace;
+	color: #B2BDBA;
+}
+
 h3 {
 	font-family: "Courier New", Courier, monospace;
 	color: #B2BDBA;
 	text-align:center;
+}
+
+h4 {
+	font-family: "Courier New", Courier, monospace;
+	color: #B2BDBA;
+}
+
+p {
+	font-family: "Courier New", Courier, monospace;
+	color: #B2BDBA;
 }
 
 #header {
