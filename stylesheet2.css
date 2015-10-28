@@ -15,12 +15,18 @@ h1 {
 h2 {
 	font-family: "Courier New", Courier, monospace;
 	color: #B2BDBA;
+	border-bottom:solid;
+	border-left:solid;
+	border-right:solid;
+	border-top:solid;
+	text-align:center;
 }
 
 h3 {
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Brush Script MT', cursive;
 	color: #B2BDBA;
 	text-align:center;
+	
 }
 
 h4 {
@@ -31,6 +37,7 @@ h4 {
 p {
 	font-family: "Courier New", Courier, monospace;
 	color: #B2BDBA;
+	text-align:center;
 }
 
 #header {
