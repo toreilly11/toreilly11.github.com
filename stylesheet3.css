@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+.clearfix:after {
+	display:block;
+	clear:both;
+	width:100%;
+}
+
+.menu-wrap {
+	width:100%;
+	
+}
+
+.menu {
+	text-align:center;
+}
+
+.menu li {
+	list-style:none;
+	transition:all linear 0.15s;
+}
+
+.menu a {
+	transition:all linear 0.15s;
+	color:#FFF;
+	text-decoration:none;
+}
+
+body {
+	background-color: #9CF;
+}
+
+h1 {
+	color:#FFF;
+	text-align:center;
+	font-family:'Brush Script MT', cursive;
+	border-top:double;
+	border-bottom:double;
+	border-left:double;
+	border-right:double;
+}
+
+.menu > ul {
+	display:table;
+	padding:0;
+	margin:0;
+	text-align:center;
+	font-family:'Brush Script MT', cursive;
+}
+
+.menu > ul > li {
+	position:relative;
+	display:table-cell;
+	margin:0px;
+	padding:0;
+	width:10%;
+	border-left: double #FFF;
+	text-align:center;
+	height:40px;
+	vertical-align:bottom;
+}
+
+.menu > ul > li:hover, .menu > ul > .current-item > a {
+	background: #FCF;
+}
+
+.menu li:hover .sub-menu {
+	z-index:1;
+	opacity:1;
+}
+
+.sub-menu {
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:100%;
+	left:0px;
+	z-index:-1;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background:#F9F;
+	text-align:center;
+	border-top:solid #FFF thick;
+}
+
+.sub-menu li {
+	display:table;
+	text-align:center;
+	width:80%;
+	margin:auto;
+}
+
+.sub-menu li #first {
+	display:table;
+	text-align:center;
+	width:100%;
+	border-tip:0;
+	margin:auto;
+}
+
+.sub-menu a {
+	display: table-cell;
+	height:40px;
+	vertical-align:middle;
+	width:100%;
+	text-align:center;
+}
+
+.sub-menu li:hover, .sub-menu .current item a {
+	background-color: #FCF;
+}
+
+.3rdtier {
+	width:100%;
+	padding:0px;
+	position:absolute;
+	top:100%;
+	left:0px;
+	z-index:-1;
+	opacity:0;
+	transition:opacity linear 0.15s;
+	background:#F9F;
+	text-align:center;
+	border-top:solid #FFF thick;
+}
+
+.sub-menu li:hover .3rdtier {
+	z-index:1;
+	opacity:1;
+	
+
+}
+
+.3rdtier > ul > li {
+	position:relative;
+	display:table-cell;
+	margin:0px;
+	padding:0;
+	width:10%;
+	border-left: double #FFF;
+	text-align:center;
+	height:40px;
+	vertical-align:bottom;
+}
+
+.3rdtier li #first {
+	display:table;
+	text-align:center;
+	width:100%;
+	border-tip:0;
+	margin:auto;
+}
+
+.3rdtier li {
+	display:table;
+	text-align:center;
+	width:80%;
+	margin:auto;
+}
+

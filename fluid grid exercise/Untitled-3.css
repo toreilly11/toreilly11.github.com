@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#photos {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 37.5%;
+	display: block;
+}
+#aboutme {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#strenths {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#weaknesses {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	z-index:1000;
+	margin:-1000;
+	opacity:0;
+}
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#stengths {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	z-index:1000;
+	margin:-1000;
+	opacity:0;
+}
+
+body {
+	background-image:url(../IMG_8398.jpg);
+	font:Arial, Helvetica, sans-serif;
+	
+}
+
+h1 {
+	text-align:center;
+}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#photos {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+}
+#aboutme {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+	height:80px;
+}
+#strenths {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#weaknesses {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 35.8974%;
+	display: block;
+	z-index:0;
+	margin:0;
+	opacity:1;
+	
+}
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 87.1794%;
+	display: block;
+}
+#stengths {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+	z-index:0;
+	margin:0;
+	opacity:1;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.5%;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height: 
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:40px;
+}
+#photos {
+	clear: both;
+	float: left;
+	margin-left: 16.9491%;
+	width:200px;
+	display: block;
+	position:relative;
+	left:170px;
+	height:150px;
+	top:27px;
+}
+#aboutme {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 100%;
+	display: block;
+	height:30px;
+	position:relative;
+	top:40px;
+}
+
+#weaknesses {
+	clear: none;
+	float: left;
+	margin-left: 30.6949%;
+	width:33.33%;
+	display: block;
+	z-index:0;
+	opacity:1;
+	position:relative;
+	height:150px;
+	bottom:200px;
+}
+
+#contact {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:50px;
+}
+
+
+#stengths {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width:33.33%;
+	display: block;
+	z-index:0;
+	margin:0;
+	opacity:1;
+	position:relative;
+	bottom:200px;
+	height:150px;
+	
+}
+
+img {
+	height:150px;
+	width:200px;
+}
+}
