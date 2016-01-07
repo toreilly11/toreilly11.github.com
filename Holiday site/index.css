@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+	
+}
+
+#Header { 
+	height:50px;
+	width:200px;
+}
+
+#Spainpic {
+	
+	height: 200px;
+	position:relative;
+	top:50px;
+	margin-left:-5%;
+	
+	
+}
+#Italypic {
+
+	height:200px;
+	position: relative;
+	top:50px;
+	margin-left:5px;
+	
+	
+}
+
+#Chinapic {
+	
+	height:200px;
+	position:relative;
+	top:230px;
+	margin left:5px;
+}
+#Francepic {
+	
+	height:200px;
+	position:relative;
+	top:230px;
+	margin-left:10px;
+	
+	
+}
+#Irelandpic {
+	
+	height:200px;
+	position:relative;
+	top:50px;
+	margin-left:30px;
+}
+
+#Greecepic {
+
+	height:200px;
+	position:relative;
+	top:230px;
+	margin left:5%;
+	
+	
+}
+
+img {
+	height:300px;
+	width:400px;
+}
