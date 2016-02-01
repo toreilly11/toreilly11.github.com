@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#title {
+	background-image:url(IMG_2200.JPG);
+	height:500px;
+}
+
+body {
+	background-color:#000;
+}
+
+
+h1 {
+	font-size:50px;
+	border:none;
+	font-family: "Times New Roman", Times, serif; 
+	padding-bottom:0px;
+	margin-bottom:0px;
+	color:black;
+}
+
+h2 {
+	text-align:center;
+	color:black;
+	font-style:italic;
+	padding-top:0;
+	margin-top:0;
+	}
+	
+img {
+	height:70%;
+	width:80%;
+	margin:100px;
+}
