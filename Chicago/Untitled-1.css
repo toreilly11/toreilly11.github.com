@@ -273,6 +273,7 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+
 #title {
 	clear: both;
 	float: left;
@@ -280,23 +281,26 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 	margin-left:-6.4%;
-	height:40%;
+	height:200px;
+	
 }
+
 #info {
 	clear: both;
-	float: left;
-	margin-left: 0;
-	margin-right:0;
-	width: 100%;
+	margin-left:0;
+	width:100%;
 	display: block;
 	background-color:#FFF;
 	height:100%;
 	position:relative;
-	top:-200px;
-	
+	top:5px;
 }
 
+#images {
+	padding-top:40px;
+	margin:auto;
+	text-align:center;
 
-
+}
 
 }

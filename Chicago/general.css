@@ -1,18 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
-#title {
-	background-image:url(IMG_2200.JPG);
-	height:500px;
-}
-
 body {
-	background-color:#000;
+	background-image:url(IMG_2200.JPG);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
 }
 
 
 h1 {
-	font-size:50px;
+	font-size:70px;
 	border:none;
 	font-family: "Times New Roman", Times, serif; 
 	padding-bottom:0px;
@@ -29,7 +27,7 @@ h2 {
 	}
 	
 img {
-	height:70%;
-	width:80%;
-	margin:100px;
+	
+	width:35%;
+    margin:0 0 10px 10px;
 }
