@@ -1,0 +1,114 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../Untitled-1.css" rel="stylesheet" type="text/css">
+<link href="../navdropdown.css" rel="stylesheet" type="text/css">
+<link href="../general.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+  <div class="gridContainer clearfix">
+  <div id="header">
+    <div id="nav">
+    	<div class="menu-wrap">
+			<nav class="menu">
+        		<ul class="clear-fix">
+				
+                <li style=><a href="#"><p style="strong">HOME</p></a>
+             	</li>
+                
+                <li><a href="#"><p style="strong">MUSEUMS</p></a>
+                	<ul class="sub-menu">
+                    	<li><a href="#">Art Institute</a></li>
+                        <li><a href="#">Museum of Contemporary Art</a></li>
+        			</ul>
+                </li>
+               
+                <li><a href="#"><p style="strong">WEATHER</p></a>
+                <ul class="sub-menu">
+                    	<li><a href="winterweather.html">Winter and Fall</a></li>
+                        <li><a href="#">Spring and Summer</a></li>
+       			  </ul>
+                  </li>
+                	
+                    	
+                 <li><a href="#"><p style="strong">MICHIGAN AVENUE</p></a>
+     			<ul class="sub-menu">
+                	<li><a href="#">Stores</a></li>
+                 </ul>
+                 </li>            
+                
+                 <li><a href="#"><p style="strong">FOOD</p></a>
+                 <ul class="sub-menu">
+                    	<li><a href="famousrestaurants.html">Well-known places</a></li>
+                        <li><a href="#">Underground Places</a></li>
+       			   </ul>
+                  </li> 
+
+				<li><a href="#"><p style="strong">ARCHITECTURE</p></a>
+                <ul class="sub-menu">
+                	<li><a href="#">Older</a></li>
+                    <li><a href="#">Newer</a></li> 
+                  </ul>
+        		</li>
+           
+		</ul>
+	</nav>  
+</div>
+</div>
+
+	<div id="title"><!-- TemplateBeginEditable name="edittitle" -->
+    
+    
+    <h1>Chicago</h1><h2>the windy city</h2>
+    <!-- TemplateEndEditable -->
+    
+    </div>
+</div>
+    
+
+<div id="content"><!-- TemplateBeginEditable name="editmain" -->
+  
+<div id="info">
+	<div id="images">
+     <h4>Greek collums at the Art Institute</h4>  
+     <img src="../IMG_2221 (1).JPG"/>
+     <img src="../IMG_2220 (1).JPG"/>
+     <img src="../IMG_2229.JPG"/>
+  	
+    <img src="../IMG_2218.JPG"/>
+     
+    
+     </div>
+</div>
+<!-- TemplateEndEditable --> 
+  </div>
+  
+  <div id="footer">This is the content for Layout Div Tag "footer"</div>
+</div>
+</body>
+</html>
