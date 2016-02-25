@@ -281,8 +281,10 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 	margin-left:-6.4%;
-	height:200px;
-	
+	height:300px;
+	text-align:center;
+	position:relative;
+	bottom:-130px;
 }
 
 #info {
@@ -293,13 +295,11 @@ img, object, embed, video {
 	background-color:#FFF;
 	height:1500px;
 	position:relative;
-	top:5px;
+	top:-30px;
+	border-bottom:thin;
+	border-top:thin;
+	border-color:#CCC;
+	
 }
 
-#images {
-	padding-top:40px;
-	margin:auto;
-	text-align:center;
-
-}
 

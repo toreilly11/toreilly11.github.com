@@ -94,9 +94,10 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 <div id="content"><!-- TemplateBeginEditable name="editmain" -->
   
+<p>&nbsp;</p>
 <div id="info">
 	<div id="images">
-     <h4>Greek collums at the Art Institute</h4>  
+    
      <img src="../IMG_2221 (1).JPG"/>
      <img src="../IMG_2220 (1).JPG"/>
      <img src="../IMG_2229.JPG"/>
