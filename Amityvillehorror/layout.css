@@ -1,0 +1,568 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		6;
+	dw-num-cols-tablet:		12;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.9666%;
+	padding-left: 1.5166%;
+	padding-right: 1.5166%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#navdropdown {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.2758%;
+	display: block;
+}
+#onethird {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 82.7586%;
+	display: block;
+}
+#full {
+	clear: none;
+	float: left;
+	margin-left: 3.4482%;
+	width: 31.0344%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#ghost1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 13.7931%;
+	display: block;
+}
+#ghost2 {
+	clear: none;
+	float: left;
+	margin-left: 3.4482%;
+	width: 13.7931%;
+	display: block;
+}
+#headerpic {
+	clear: none;
+	float: left;
+	margin-left: 3.4482%;
+	width: 65.5172%;
+	display: block;
+}
+
+body {
+	background-color:#000;
+}
+
+#locationpic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#locationtext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#locationpic2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#locationpic3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#victims {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#ron {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#sister {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#louise {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.2758%;
+	display: block;
+}
+
+#ronsr {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#dawn {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#mark {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 91.45%;
+	padding-left: 0.775%;
+	padding-right: 0.775%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#navdropdown {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#onethird {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#full {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#ghost1 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+#ghost2 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+#headerpic {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 57.6271%;
+	display: block;
+}
+
+body {
+	background-color:#000;
+}
+
+#locationpic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#locationtext {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#locationpic2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#locationpic3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#victims {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#ron {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#sister {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#louise {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#ronsr {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#dawn {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#mark {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.5%;
+	max-width: 1232px;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-right:0;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#navdropdown {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds {
+	clear: none;
+	float: left;
+	width: 57.6271%;
+	display: block;
+	margin-left: 3.6949%;
+}
+#onethird {
+	clear: none;
+	float: left;
+
+	width: 32.2033%;
+	display: block;
+}
+#full {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	position:relative;
+	margin-top:3%;
+}
+
+#ghost1 {
+	clear: none;
+	float: left;
+	margin-left: 0%;
+	width: 15.2542%;
+	display: block;
+}
+
+#ghost2 {
+	clear: none;
+	float: left;
+	margin-left: 0%;
+	width: 15.2542%;
+	display: block;
+}
+
+#Header ul li {
+	display:inline;
+	
+}
+
+#Header ul {
+	list-style-type:none;
+	display:inline;
+}
+
+#Header ul li img {
+	
+}
+
+#headerpic {
+	
+clear: none;
+	
+float: left;
+	
+margin-left: 0%;
+	
+width: 69.1016%;
+	
+display: block;
+	
+}
+
+
+
+#locationpic {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 32.2033%;
+	display: block;
+}
+
+
+
+#locationpic2 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 40.6779%;
+	display: block;
+}
+
+#locationpic3 {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 23.7288%;
+	display: block;
+}
+
+#ron {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 15.2542%;
+	display: block;
+}
+
+#sister {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+#louise {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+#ronsr {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+#dawn {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+#mark {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+
+	
+}
