@@ -242,6 +242,30 @@ h3 {
 	width: 100%;
 	display: block;
 }
+
+#onethid4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#lutz {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -459,6 +483,30 @@ body {
 	display: block;
 }
 
+#onethid4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#lutz {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -574,11 +622,12 @@ display: block;
 
 
 #locationpic {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 32.2033%;
+	margin-left: 1.6949%;
+	width: 23.7288%;
 	display: block;
+	margin-top:2%;
 }
 
 
@@ -642,7 +691,7 @@ display: block;
 #mark {
 	clear: none;
 	float: left;
-	margin-left: 1.6949%;
+	margin-left:1%;
 	width: 15.2542%;
 	display: block;
 }
@@ -690,6 +739,32 @@ display: block;
 	width: 66.1016%;
 	display: block;
 	margin-top:2%;
+}
+
+#onethid4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 32.2033%;
+	display: block;
+	margin-top:2%;
+}
+
+#twothirds4 {
+	clear: none;
+	float: left;
+	margin-left:1%;
+	width: 66.1016%;
+	display: block;
+	margin-top:2%;
+}
+
+#lutz {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
 }
 
 

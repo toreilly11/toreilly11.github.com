@@ -47,24 +47,24 @@ Do the following if you're using your customized build of modernizr (http://www.
 			<nav class="menu">
         		<ul class="clear-fix">
 				
-                 <li><a href="movies.html">THE MOVIES</a>
+                 <li><a href="../movies.html">THE MOVIES</a>
                 <ul class="sub-menu">
-                    	<li><a href="movies.html">Amityville 1982</a></li>
-                       <li><a href="movies.html"> Amityville Horror 2005</a></li> 
-                       <li><a href="movies.html"> Amityville: Amityville playhouse (2015) </a></li>
+               	  <li><a href="../movies.html">Amityville 1982</a></li>
+                       <li><a href="../movies.html"> Amityville Horror 2005</a></li> 
+                       <li><a href="../movies.html"> Amityville: Amityville playhouse (2015) </a></li>
        			  </ul>
                   </li>
                 
-                <li><a href="#">FAMOUS PICTURES</a>
+                <li><a href="../pnormalpics.html">FAMOUS PICTURES</a>
              	</li>
                 
-                <li><a href="#">THE CONSPIRACY</a>
+                <li><a href="../conspiracy.html">THE CONSPIRACY</a>
                 	
                 </li>
                 	
-                 <li><a href="references.html">REFERENCES</a>
+                 <li><a href="../references.html">REFERENCES</a>
                  </li>            
-                <li><a href="#">MY OPINION</a>
+                <li><a href="../myopinion.html">MY OPINION</a>
                 	
                 </li>
                  
@@ -80,7 +80,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 	<div id="onethird">
 	<img src="../amityvillehorrorhouse.jpg"/></div>
-	<div id="twothirds"><h2>Were the hautings real? The story</h2>
+	<div id="twothirds"><h2>The background story</h2>
     <p>On November 13, 1974, police received a report of a homicide at 112 Ocean Avenue, where they discovered six members of the DeFeo family -- father, mother and four of their five children -- shot and killed execution style. The surviving son, Ronald "Butch" DeFeo Jr., was eventually charged and tried for the murder of his family and is currently serving six concurrent life sentences. Some theorized that Ronald DeFeo Jr. was a sociopath turned killer. Others reasoned that Ronald DeFeo Jr. had to be possessed by the devil or insane in order to shoot and kill the slumbering family he adored. To this day, questions remain, such as: Why did it appear that six members of the DeFeo family slept through eight high-powered gunshots? Why were all of the victims found in the same position in their beds? </p>
     </div>
 	<div id="full"><h2><strong>Location of the horror:</strong> 112 Ocean Avenue, Long Island, NY.</h2>
