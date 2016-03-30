@@ -75,7 +75,7 @@ img, object, embed, video {
 	clear: none;
 	float: left;
 	margin-left: 3.4482%;
-	width: 31.0344%;
+	width: 48.2758%;
 	display: block;
 }
 #content {
@@ -138,8 +138,8 @@ body {
 #locationpic3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 17.2413%;
+	width: 48.2758%;
 	display: block;
 }
 
@@ -155,43 +155,51 @@ body {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 13.7931%;
 	display: block;
 }
 
 #sister {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 3.4482%;
+	width: 13.7931%;
 	display: block;
 }
 
 #louise {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 48.2758%;
+	margin-left: 3.4482%;
+	width: 13.7931%;
 	display: block;
 }
 
 #ronsr {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 3.4482%;
+	width: 13.7931%;
 	display: block;
 }
 
 #dawn {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 3.4482%;
+	width: 13.7931%;
 	display: block;
 }
 
 #mark {
+	clear: none;
+	float: left;
+	margin-left: 3.4482%;
+	width: 13.7931%;
+	display: block;
+}
+
+#full2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -199,6 +207,41 @@ body {
 	display: block;
 }
 
+h3 {
+	font-size:13px;
+}
+
+#onethird2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#onethird3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -289,10 +332,10 @@ body {
 }
 
 #locationpic {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 1.6949%;
+	width: 32.2033%;
 	display: block;
 }
 
@@ -308,15 +351,15 @@ body {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 6.7796%;
 	display: block;
 }
 
 #locationpic3 {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 1.6949%;
+	width: 40.6779%;
 	display: block;
 }
 
@@ -332,35 +375,51 @@ body {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 15.2542%;
 	display: block;
 }
 
 #sister {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 1.6949%;
+	width: 15.2542%;
 	display: block;
 }
 
 #louise {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 1.6949%;
+	width: 15.2542%;
 	display: block;
 }
 
 #ronsr {
-	clear: both;
+	clear: none;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 1.6949%;
+	width: 15.2542%;
 	display: block;
 }
 
 #dawn {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+#mark {
+	clear: none;
+	float: left;
+	margin-left: 1.6949%;
+	width: 15.2542%;
+	display: block;
+}
+
+#full2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -368,7 +427,31 @@ body {
 	display: block;
 }
 
-#mark {
+#onethird2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#onethird3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#twothirds3 {
 	clear: both;
 	float: left;
 	margin-left: 0;
@@ -415,9 +498,9 @@ body {
 #twothirds {
 	clear: none;
 	float: left;
-	width: 57.6271%;
+	width: 66.1016%;
 	display: block;
-	margin-left: 3.6949%;
+	margin-left:1%;
 }
 #onethird {
 	clear: none;
@@ -432,6 +515,7 @@ body {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	margin-top:1%;
 }
 #content {
 	clear: both;
@@ -503,7 +587,7 @@ display: block;
 	clear: none;
 	float: left;
 	margin-left: 1.6949%;
-	width: 40.6779%;
+	width: 32.2033%;
 	display: block;
 }
 
@@ -511,7 +595,7 @@ display: block;
 	clear: none;
 	float: left;
 	margin-left: 1.6949%;
-	width: 23.7288%;
+	width: 32.2033%;
 	display: block;
 }
 
@@ -561,6 +645,51 @@ display: block;
 	margin-left: 1.6949%;
 	width: 15.2542%;
 	display: block;
+}
+
+#full2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#onethird2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 32.2033%;
+	display: block;
+	margin-top:2%;
+
+}
+
+#twothirds2 {
+	clear: none;
+	float: left;
+	margin-left:1%;
+	width: 66.1016%;
+	display: block;
+	margin-top:2%;
+}
+
+#onethird3 {
+	clear: both;
+	float: left;
+	margin-left:0;
+	width: 32.2033%;
+	display: block;
+	margin-top:2%;
+}
+
+#twothirds3 {
+	clear: none;
+	float: left;
+	margin-left:1%;
+	width: 66.1016%;
+	display: block;
+	margin-top:2%;
 }
 
 
