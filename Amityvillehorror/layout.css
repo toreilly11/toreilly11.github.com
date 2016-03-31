@@ -624,7 +624,7 @@ display: block;
 #locationpic {
 	clear: none;
 	float: left;
-	margin-left: 1.6949%;
+	margin-left: 3.6949%;
 	width: 23.7288%;
 	display: block;
 	margin-top:2%;
@@ -635,17 +635,19 @@ display: block;
 #locationpic2 {
 	clear: none;
 	float: left;
-	margin-left: 1.6949%;
+	margin-left: 3.6949%;
 	width: 32.2033%;
 	display: block;
+	margin-top:2%;
 }
 
 #locationpic3 {
 	clear: none;
 	float: left;
-	margin-left: 1.6949%;
+	margin-left: 3.6949%;
 	width: 32.2033%;
 	display: block;
+	margin-top:2%;
 }
 
 #ron {
