@@ -3,7 +3,7 @@ h1 {
 	color:#000;
 	text-align:center;
 	font-family:Georgia, 			"Times New Roman", Times, serif;
-	font-size:5px;
+	font-size:10px;
 }
 
 .menu > ul {
@@ -28,7 +28,7 @@ h1 {
 }
 
 .menu > ul > li > a {
-font-size:15px;
+font-size:20px;
 }
 
 .menu > ul > li:hover, .menu > ul > .current-item > a {
@@ -59,7 +59,7 @@ font-size:15px;
 	text-align:center;
 	width:80%;
 	margin:auto;
-	font-size:5px;
+	font-size:10px;
 }
 
 .sub-menu li #first {
@@ -92,7 +92,7 @@ font-size:15px;
 	opacity:1;
 }
 a:visited{
-	color:#FFF;
+	color:#000;
 	text-decoration:none;
 	}
 

@@ -98,6 +98,20 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#grid4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#grid5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -170,6 +184,20 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#grid4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 23.0769%;
+	display: block;
+}
+#grid5 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -218,6 +246,9 @@ img, object, embed, video {
 	margin-left: 8.4745%;
 	width: 83.0508%;
 	display: block;
+	position:relative;
+	text-align:center;
+	top:40px;
 }
 #grid1 {
 	clear: both;
@@ -226,6 +257,8 @@ img, object, embed, video {
 	width: 32.2033%;
 	display: block;	
 	margin-right:1%;
+	top:50px;
+	position:relative;
 }
 #grid2 {
 	clear: none;
@@ -234,6 +267,9 @@ img, object, embed, video {
 	width: 32.2033%;
 	display: block;
 	margin-right:1;
+	position:relative;
+	top:3%;
+	top:50px;
 	
 }
 #grid3 {
@@ -242,6 +278,26 @@ img, object, embed, video {
 	margin-left:1%;
 	width: 32.2033%;
 	display: block;
+	top:50px;
+	position:relative;
+}
+#grid4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#grid5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
 }
 
+#slideimg {
+	text-align:center;
+	top:5%;
+}
 }

@@ -28,7 +28,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 <![endif]-->
 <script src="respond.min.js"></script>
 </head>
-<body>
+<body onload="timer()">
 <div class="gridContainer clearfix">
 
 <div id="links">
@@ -37,24 +37,23 @@ Do the following if you're using your customized build of modernizr (http://www.
     <img src="facebook-grey1.gif" height="40"width="40"/>
 </div>
   
-<div id="title"><h2> <img src="recipe header (1).jpg" width="288" height="87"/></h2></div>
+<div id="title"><h2></h2></div>
 
 <div id="menu"><div id="navdropdown"><div id="nav">
     	<div class="menu-wrap">
 			<nav class="menu">
         		<ul class="clear-fix">
 				
-                 <li><a href="#">Snacks</a>
                 
-                  </li>
-                
-                <li><a href="#"><img src="breakfast dropdown.jpeg" height="40" width="80"/></a>
+                <li><a href="#">Breakfast</a>
              	</li>
                 
                 <li><a href="#">Lunch</a>
                 	
                 </li>
+                	<li><a href="#"> <img src="recipeheader2.jpg" width="178" height="179"/></a>
                 	
+                </li>
                  <li><a href="#">Dinner</a>
                  </li>            
                 <li><a href="#">Desserts</a>
@@ -68,13 +67,39 @@ Do the following if you're using your customized build of modernizr (http://www.
 </div></div>
 </div>
 
-<div id="slideshow">This is the content for Layout Div Tag "slideshow"</div>
+<div id="slideshow">
+<img id="slideimg" src="cookies.jpg"/>
+	<script>
+		var image = [], x=0
+		
+		image[0]="cookies.jpg";
+		
+		image[1]="pie.jpg";
+		
+		image[2]="cake.jpg"; 
+		
+		function next(){
+			x= x + 1;
+			document.getElementById('slideimg').src = image[x]
+			if (x===2){x=-1
+				}
+		}
+		
+		function timer () {
+			setInterval(next, 2500);
+		}
+		</script>
+
+</div>
 
 <div id="grid1"><img src="cake.jpg"/></div>
 
 <div id="grid2"><img src="noodles.jpg"/></div>
   
-  <div id="grid3"><img src="veggies.jpg"/></div>
+<div id="grid3"><img src="veggies.jpg"/></div>
+ 
+<div id="grid4"></div>
 
+<div id="grid5"></div>
 </body>
 </html>
