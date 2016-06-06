@@ -112,6 +112,125 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#photos3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#foodsite {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#horrorsite {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#xmassite {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#chicagosite {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#ireland {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#newzealad {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#titleimg {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#japan {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#titleimg2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#titleimg3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row3.5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -195,6 +314,125 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
+	width: 48.7179%;
+	display: block;
+}
+#photos3 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#row1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#foodsite {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#horrorsite {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#xmassite {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 74.3589%;
+	display: block;
+}
+#chicagosite {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 74.3589%;
+	display: block;
+}
+#row2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 74.3589%;
+	display: block;
+}
+#row3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#ireland {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 61.5384%;
+	display: block;
+}
+#newzealad {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 61.5384%;
+	display: block;
+}
+#titleimg {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#japan {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#titleimg2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#titleimg3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row3.5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
 	width: 100%;
 	display: block;
 }
@@ -250,6 +488,148 @@ img, object, embed, video {
 	display: block;
 }
 #photos2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	position:relative;
+	left:250px;
+	height:250px;
+}
+#photos3 {
+	clear: both;
+	
+	float: left;
+	
+	margin-left: 0;
+	
+	width: 100%;
+	
+	display: block;
+	height:250px;
+	margin-left:11%;
+	width: 83.0508%;
+}
+#row1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+	
+}
+#foodsite {
+	clear: both;
+	float: left;
+	margin-left: 13%;
+	width: 74.5762%;
+	display: block;
+}
+#horrorsite {
+	clear: both;
+	float: left;
+	margin-left: 13%;
+	width: 74.5762%;
+	display: block;
+	position:relative;
+	text-align:center;
+	alignment-adjust:central;
+}
+#xmassite {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 74.5762%;
+	display: block;
+	text-align:center;
+	margin-left: 13%;
+}
+#chicagosite {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 74.5762%;
+	display: block;
+	margin-left: 13%;
+}
+#row2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#row3 {
+	clear: none;
+	float: left;
+	margin-left:0%;
+	width: 74.5762%;
+	display: block;
+	text-align:center;
+}
+#row4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#ireland {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#newzealad {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#titleimg {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#japan {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#titleimg2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#titleimg3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+#row3.5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#row5 {
 	clear: both;
 	float: left;
 	margin-left: 0;

@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../newportfolio.css" rel="stylesheet" type="text/css">
+<link href="../menu1.css" rel="stylesheet" type="text/css">
+<link href="../fonts1.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+
+  <div class="gridContainer clearfix">
+  <div id="menu1">
+<div id="navdropdown">
+	<div id="nav">
+  <div class="menu-wrap">
+    <nav class="menu">
+      <ul class="clear-fix">
+        
+        <li><a href="index.html">HOME</a>
+          <ul class="sub-menu">
+            </ul>
+        </li>
+ 		<li><a href="photography.html">PHOTOGRAPHY</a> </li>
+        
+       <li> <img src="../weblogo (1).jpg"/></li>
+		
+       
+        <li><a href="traveling.html">TRAVELING</a> </li>
+        <li><a href="website.html">WEBSITES</a> </li>
+          
+        
+
+      </ul>
+    </nav>
+  </div>
+</div>
+</div>
+</div>
+<!-- TemplateBeginEditable name="maintcontent" -->
+  <div id="name"></div>
+  <div id="photos">
+    <p><img src="../hexskytrees2.png" width="252" height="236"/>
+      <img src="../hexcityline.png" width="250" height="236"/>
+      <img src="../hexsky2.png" width="250" height="236"/>
+      <img src="../hexmystic.png" width="250" height="236"/> 
+     
+    </div>
+  
+  <div id="photos2">
+	 <img src="../hexcherry.jpg" width="226" height="246"/>
+  	<img src="../hexplants.jpg" width="226" height="246"/>
+    <img src="../hexcars.jpg" width="226" height="246"/>
+    </div>
+
+<div id="photos3">
+	<img src="../hextree.jpg" width="226" height="246"/>
+    <img src="../hexsky2.jpg" width="218" height="249"/>
+	<img src="../hexsunshine.jpg" width="226" height="246"/>
+    <img src="../hexcityline.png" width="250" height="236"/>
+</div>
+<!-- TemplateEndEditable -->
+</div>
+</body>
+</html>
