@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFucntion(3)">Button</button>
+
+
+
+</body>
+</html>
