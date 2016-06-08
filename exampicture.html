@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<body>
+<<h1>JavaScript Can Change Images</h1>
+
+<img id="Image1" onclick="changeImage()"src="">
+<script>
+function changeImage() {
+    var image = document.getElementById('Image1');
+    if (image.src.match("cute")) {
+        image.src = "http://rs1176.pbsrc.com/albums/x325/Rawwr-Sleepy-Dinosauur05/Kawaii%20Fruit%20Gifs/9b5f97108xl.gif~c200";
+    } else {
+        image.src = "src="https://media.riffsy.com/images/2d26f5b84f28e9213d7c125b620bc6de/raw";
+    }
+}
+}
+</script>
+</body>
+</html>
